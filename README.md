@@ -21,7 +21,10 @@ npm i react-native-svg-transformer
 ```
 
 🏷️ **react-native-svg-transformer**  
-**react-native-svg** 는 `<Svg />`, `<G />`, `<Path />` 등 거의 모든 SVG 관련 컴포넌트를 제공하지만, SVG 파일 자체를 `import` 할 수 있게 해주지는 않는다. SVG 파일을 import 해서 사용하려면 **react-native-svg-transformer** 라이브러리도 필요하다. 이 라이브러리는 **react-native-svg** 라이브러리를 사용해 SVG 파일을 읽어들여 React 컴포넌트로 사용할 수 있게 해준다.`
+**react-native-svg** 는 `<Svg />`, `<G />`, `<Path />` 등 거의 모든 SVG 관련 컴포넌트를 제공하지만,  
+SVG 파일 자체를 `import` 할 수 있게 해주지는 않는다.  
+SVG 파일을 import 해서 사용하려면 **react-native-svg-transformer** 라이브러리도 필요하다.  
+이 라이브러리는 **react-native-svg** 라이브러리를 사용해 SVG 파일을 읽어들여 React 컴포넌트로 사용할 수 있게 해준다.
 
 <br>
 
@@ -82,7 +85,7 @@ declare module '*.svg' {
 <br>
 
 **※ [ `index.ts` ] - (SVG 파일들 **re-export**)**
-&nbsp;1.
+&nbsp;
 
 - 모든 SVG 파일은 인덱스 파일을 따로 만들어 한 곳에서 관리하도록 하자.
 
