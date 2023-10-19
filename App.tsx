@@ -1,7 +1,7 @@
 /* eslint-disable react-native/no-inline-styles */
 /* eslint-disable react/react-in-jsx-scope */
 import { SafeAreaView, StatusBar, View } from 'react-native';
-import SvgIconAtom from './src/components/atoms/SvgIcon.atom';
+import SvgIconAtom from './src/components/SvgIcon.atom';
 
 const App = () => {
   return (

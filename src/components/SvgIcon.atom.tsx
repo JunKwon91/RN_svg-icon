@@ -1,6 +1,6 @@
 import React from 'react';
 import { SvgProps } from 'react-native-svg';
-import * as Icons from '../../assets';
+import * as Icons from '../assets';
 
 type TSvgIconProps = SvgProps & {
   // res 에서 re-export 되는 SVG 파일들의 이름을 name 으로 받을 수 있다.
